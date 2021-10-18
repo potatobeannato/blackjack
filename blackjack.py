@@ -8,10 +8,9 @@ class LuxCard:
         self.suit = suit
         self.value = value
 
+    # This function is to called upon the deck to randomize a card to the dealer's and the player's hand
     def __repr__(self):
         return "of".join((self.value, self.suit))
-
-# Building a deck and making it shuffle and deal
 
 
 class LuxDeck:
